@@ -1,0 +1,36 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-02-12 12:31:11 --- CRITICAL: ErrorException [ 8 ]: Undefined property: stdClass::$next_max_tag_id ~ APPPATH\views\read\admin.php [ 1 ] in C:\project\black_fox\application\views\read\admin.php:1
+2014-02-12 12:31:11 --- DEBUG: #0 C:\project\black_fox\application\views\read\admin.php(1): Kohana_Core::error_handler(8, 'Undefined prope...', 'C:\project\blac...', 1, Array)
+#1 C:\project\black_fox\system\classes\Kohana\View.php(61): include('C:\project\blac...')
+#2 C:\project\black_fox\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\project\blac...', Array)
+#3 C:\project\black_fox\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\project\black_fox\application\views\template\template.php(20): Kohana_View->__toString()
+#5 C:\project\black_fox\system\classes\Kohana\View.php(61): include('C:\project\blac...')
+#6 C:\project\black_fox\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\project\blac...', Array)
+#7 C:\project\black_fox\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\project\black_fox\application\classes\Controller\index.php(56): Kohana_Controller_Template->after()
+#9 C:\project\black_fox\system\classes\Kohana\Controller.php(87): Controller_Index->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 C:\project\black_fox\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Read))
+#12 C:\project\black_fox\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 C:\project\black_fox\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 C:\project\black_fox\index.php(118): Kohana_Request->execute()
+#15 {main} in C:\project\black_fox\application\views\read\admin.php:1
+2014-02-12 12:31:59 --- CRITICAL: ErrorException [ 8 ]: Undefined property: stdClass::$next_max_tag_id ~ APPPATH\views\read\admin.php [ 1 ] in C:\project\black_fox\application\views\read\admin.php:1
+2014-02-12 12:31:59 --- DEBUG: #0 C:\project\black_fox\application\views\read\admin.php(1): Kohana_Core::error_handler(8, 'Undefined prope...', 'C:\project\blac...', 1, Array)
+#1 C:\project\black_fox\system\classes\Kohana\View.php(61): include('C:\project\blac...')
+#2 C:\project\black_fox\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\project\blac...', Array)
+#3 C:\project\black_fox\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\project\black_fox\application\views\template\template.php(20): Kohana_View->__toString()
+#5 C:\project\black_fox\system\classes\Kohana\View.php(61): include('C:\project\blac...')
+#6 C:\project\black_fox\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\project\blac...', Array)
+#7 C:\project\black_fox\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\project\black_fox\application\classes\Controller\index.php(56): Kohana_Controller_Template->after()
+#9 C:\project\black_fox\system\classes\Kohana\Controller.php(87): Controller_Index->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 C:\project\black_fox\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Read))
+#12 C:\project\black_fox\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 C:\project\black_fox\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 C:\project\black_fox\index.php(118): Kohana_Request->execute()
+#15 {main} in C:\project\black_fox\application\views\read\admin.php:1

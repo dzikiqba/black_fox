@@ -1,0 +1,166 @@
+/* CSS Document */
+
+@font-face {
+
+    font-family: 'arial-black';
+    src: local('Arial Black');
+
+}
+
+* { margin: 0px 0px; padding: 0px 0px;}
+ 
+html, body {  height: 100%;  text-align:center; background:url("../img/witewall_3.png"); background-color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+ 
+#container{ 
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom:-29px; /* - height of footer */
+}
+#content {width:984px; margin:0 auto; display:block; overflow:hidden}
+
+#header {height:70px; background-color:#333; padding:20px; margin-bottom:20px}
+#header h1 {font-size:30px; color:#FFF; font-family:arial-black; text-shadow: 1px 1px #999, -1px -1px #444} 
+ 
+#footer, #push {
+  clear:both; 
+  height:100px;
+ 
+}
+
+#footer #copy {
+	 background-color:#333;
+	 height:100px;
+	 display:block;
+	 overflow:hidden;
+	 padding-top:20px;
+	 color:#FFF;
+	 font-family:Arial, Helvetica, sans-serif;
+}
+ a {color:#CCCCCC;  text-decoration:none}
+ a:hover {color:#FF0}
+ 
+#menu {  margin:0 auto;  width:984px; display:block; overflow:hidden; }
+#menu .menu  {display:block; font-family:Arial, Helvetica, sans-serif; overflow:hidden; width:98%; margin-top:20px;}
+#menu .menu li { list-style:none; padding:5px; display:inline; color:#CCCCCC}
+#menu .menu li a {font-weight:bold; }
+#menu .menu li a:hover {color:#FF0}
+
+#form {margin: 20px 0 20px 0; text-align:right}
+.photo {display:block; overflow:hidden; margin-bottom:20px}
+#photos li {list-style:none}
+.pagination { display:block; overflow:hidden}
+
+.scroll{display:block; overflow:hidden; width:98%; font-family:Arial, Helvetica, sans-serif; }
+.scroll li {margin:5px; list-style:none; padding:5px; cursor:pointer;}
+.mosaic_item {border:1px #999 solid; -moz-border-radius: 3px; border-radius: 3px; margin:10px; float:left;  width:215px; }
+
+.mosaic_item .image img{	
+    border: 1px solid #4C3C1B;
+	height: 120px;
+	display:block;
+	
+	margin:3px auto;
+    }
+.scroll li  .title {color:#93006D; overflow:hidden; width:100%; margin:5px auto; height:30px; font-size:12px}
+.scroll li  .inform {display:block; height:25px; width:100%; margin:5px auto; font-size:12px }
+.scroll li 	.time { font-size:12px; line-height:16px; color:#999999; text-align:right; float:right; width:60px;}
+.scroll li 	.date { font-size:12px; line-height:16px; color:#999999; text-align:left; float:left; width:100px;}
+.scroll li 	.save_prof { font-size:12px; line-height:22px; color:#333; text-align:left; float:left; width:100px; margin-left:8px;}
+.videos_title {width:100%; min-width:40px; height:30px; display:block; line-height:30px; font-family:"Arial Black", arial-black, Arial, Helvetica, sans-serif; font-size:16px; font-weight:black; text-transform:uppercase; color:#82899D; margin-top:20px; text-align:center}
+.video_time {font-size:12px; color:#999999;}
+#pagin {display:block; overflow:hidden}
+#pagin .prev {float:left; width:130px}
+#pagin .next {float:right; padding-right:40px}
+    input {  
+        padding: 5px;  
+        font-size: 15px;  
+        text-shadow: 0px 1px 0px #fff;  
+        outline: none;  
+        background: -webkit-gradient(linear, left top, left bottombottom, from(#bcbcbe), to(#ffffff));  
+        background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);  
+        -webkit-border-radius: 3px;  
+        -moz-border-radius: 3px;  
+        border-radius: 3px;  
+        border: 1px solid #717171;  
+        -webkit-box-shadow: 1px 1px 0px #efefef;  
+        -moz-box-shadow: 1px 1px 0px #efefef;  
+        box-shadow:  1px 1px 0px #efefef; 
+		width: 300px; 
+    }  
+	    input:focus {  
+        -webkit-box-shadow: 0px 0px 5px #007eff;  
+        -moz-box-shadow: 0px 0px 5px #007eff;  
+        box-shadow: 0px 0px 5px #007eff;  
+    }  
+
+.form_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #cc9f52;
+}.form_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.form_button:active {
+	position:relative;
+	top:1px;
+}
+
+.pag_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}
+.pag_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+.pag_button:active {
+	position:relative;
+	top:1px;
+}
+
+#list {width:984px; display: block; overflow:hidden; margin:20px auto}
+#list .lastS li {list-style: disc outside; font-size:12px; width:250px; overflow:hidden; float:left; text-align:left}
+#list .lastS li a {color:#FFF; text-decoration:none}
+#list .lastS li a:hover {text-decoration:underline}
+
+#error {font-size:18px; height:40px; font-weight:bold; color:#FF0000; border:dashed #900; padding:10px;}
+.v_fav_unch a {color:#000000}
+.tosave {cursor:pointer; color:#333}

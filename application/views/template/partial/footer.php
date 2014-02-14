@@ -1,0 +1,1 @@
+<div id="copy">Copyright <?php echo date('Y'); ?> <a href="#">Jakub Dzikowski</a></div>
