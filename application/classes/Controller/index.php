@@ -10,9 +10,9 @@ class Controller_Index extends Controller_Template {
         public function before(){
             parent::before();
                     
-            $this->_title       = 'Instagram';         
+            $this->_title   = 'Instagram';         
             $this->__JS__   = 'public/static/js/';
-            $this->__CSS__= 'public/static/css/';
+            $this->__CSS__  = 'public/static/css/';
         }
 
 public function action_index()
